@@ -28,4 +28,4 @@ db.on("error ", (err) => {
   console.log("error  to mongodb server", err);
 });
 //export db connection
-module.export = db;
+module.exports = db;
